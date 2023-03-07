@@ -39,7 +39,17 @@ h3 {
     src: url(CursedTimerUlil-Aznm.ttf);
 }
 
-.score-num {
+#score-home {
+    color: #F94F6D;
+    font-family: CursedTimerULiL;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 127px;
+    text-align: center;
+    margin: 0px;
+}
+
+#score-guest {
     color: #F94F6D;
     font-family: CursedTimerULiL;
     font-size: 90px;
