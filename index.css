@@ -25,36 +25,29 @@ h3 {
     justify-content: center;
 }
 
-.score-area {
-    width: 155px;
-    height: 120px;
-/*    margin-top: 82px;
-    margin-left: 125px;
-  */  
-    background: #080001;
-    border-radius: 5px;}
-
 @font-face {
     font-family: CursedTimerULiL;
     src: url(CursedTimerUlil-Aznm.ttf);
 }
 
-#score-home {
+.score-area {
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
     color: #F94F6D;
     font-family: CursedTimerULiL;
     font-size: 90px;
     font-weight: 400;
     line-height: 127px;
+}
+
+#score-home {
     text-align: center;
     margin: 0px;
 }
 
 #score-guest {
-    color: #F94F6D;
-    font-family: CursedTimerULiL;
-    font-size: 90px;
-    font-weight: 400;
-    line-height: 127px;
     text-align: center;
     margin: 0px;
 }
