@@ -5,4 +5,74 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    width: 556px;
+    background: #374151;
+    ;
+}
+h3 {
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.score-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-area {
+    width: 155px;
+    height: 120px;
+/*    margin-top: 82px;
+    margin-left: 125px;
+  */  
+    background: #080001;
+    border-radius: 5px;}
+
+@font-face {
+    font-family: CursedTimerULiL;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+.score-num {
+    color: #F94F6D;
+    font-family: CursedTimerULiL;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 127px;
+    text-align: center;
+    margin: 0px;
+}
+
+.btn-area {
+    margin-top: 26px;
+    margin-bottom: 69px;
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 30px;
+    height: 26px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #9AABD8;
+    border-color: #9AABD8;
+    padding: 5px;
+
+}
+
+.border-blue {
+    border: 2px dashed blue;
 }
